@@ -1,0 +1,37 @@
+.header-nav {
+    display: inline-block
+
+}
+
+.header-nav {
+    width: 100%ß;
+    height: 4em;
+    border: 3px grey solid;
+    border-bottom: red solid 3px;
+    align-content: center;
+    background-color: lightgrey;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: grey solid 2px;
+    border-left: red solid 5px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: seashell;
+    font: bolder;
+   
+}
+
+nav {
+    text-align: center;
+    height: 1em;
+    margin-top: 1.5em;
+}

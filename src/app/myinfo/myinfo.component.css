@@ -1,0 +1,59 @@
+.my-info {
+    margin-bottom: 300px;
+    width: auto;
+    height: 100vh;
+    background: seashell;
+    
+}
+
+p , h1 {
+    color: red;
+    text-align: center;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.imageContainer {
+    margin-left: 100%
+}
+
+
+.detailsInfo { 
+    width: 400px;
+    margin-top: 7.5em;
+}
+
+button {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-bottom: 1px grey solid;
+    border-left: 2px red solid;
+    padding-top: 2ems;
+    margin-top: 2ems;
+    
+}
+
+h1 {
+    margin-top: 2ems;
+    text-align: center;
+}
+
+.my-button {
+    width: 500px;
+    margin-left: 40%;
+    margin-top: 10ems;
+}
+
+li {
+    list-style: none;
+}
+
+.my-info-container {
+    background: rgb(199, 199, 207)
+}

@@ -1,0 +1,81 @@
+.mainPage {
+    background: url('https://img.buzzfeed.com/buzzfeed-static/static/2015-04/30/17/campaign_images/webdr07/12-random-things-you-might-not-know-about-the-fla-2-13220-1430429274-27_dblbig.jpg');
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Flatiron-title {
+    
+    font-family: 'Marcellus SC', serif;
+
+}
+
+.mainTitle {
+   
+    /* text-align: center; */
+    
+    border: solid white 3px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-right: 10%; 
+}
+
+.mainTitle h1 {
+    color: seashell;
+    font-family: 'Noto Sans SC', sans-serif;
+
+}
+
+
+.timeAndDate h4 {
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.timeAndDate {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  
+}
+
+
+
+
+.primaryPageNav a {
+    background-color: seashell; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    border-left:  10px solid red;
+    border-bottom: 5px solid gray;
+    font: bolder;
+    margin: 5px;
+    font-family: 'Noto Sans SC', sans-serif;
+    width: 150px;
+}
+
+.side-nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: start;
+    margin-left: 5%;
+    
+}
+
+.grid-container {
+    display: grid;
+}

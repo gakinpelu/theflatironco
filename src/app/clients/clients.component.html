@@ -1,0 +1,40 @@
+
+<app-headernav></app-headernav>
+
+
+<div class="clients-div">
+      <h1>Clients</h1>
+      <form>
+        <label>Filter Clients</label>
+        <input name="something" type="text" placeholder=" Search By Name" [(ngModel)]="searchText"/>
+      </form>
+      <h4>*Search by client name or by username</h4>
+<div *ngFor="let clients of client | filterPipe: searchText">
+    <div class="random-info-card" >
+          <h5 class="card-title" >{{clients.name}}'s Information</h5>
+          <ul >
+              <li><strong>Name: {{clients.name}} </strong> </li> 
+              <li><strong>User Name: {{clients.username}}</strong> </li> 
+              <li><strong>Email: {{clients.email}}</strong> </li>  
+              <li><strong>Location: {{clients.address.city}}</strong> </li>  
+          </ul>
+  </div>
+
+
+  </div>
+
+  </div>
+  
+  
+  
+  
+<app-footer></app-footer>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+
+<app-headernav></app-headernav>
+<div class="pending-clients">
+  <h1>Pending Clients</h1>
+    <form>
+        <label>Filter Clients</label>
+        <input name="something" type="text" placeholder=" Search By Name" [(ngModel)]="searchTexts"/>
+      </form>
+    <h4>**Search via the clients name or username</h4>
+    
+    <div class="detail-card" *ngFor="let pendingClient of pendingClient | filterPipe: searchTexts">
+      <h3> {{pendingClient.name}}'s Information</h3>
+      <ul>
+        <li>Name: {{pendingClient.name}}</li>
+        <li>Username: {{pendingClient.username}}</li>
+        <li>Email: {{pendingClient.email}}</li>
+  
+      </ul>
+    </div>
+</div>
+
+
+
+<app-footer></app-footer>
